@@ -35,5 +35,6 @@ Delete a service
     cf delete-service <service-name>
 
 Deploy APP with build pack
+
     Go within the app's directory
     cf push flaskapp -b https://github.com/cloudfoundry/python-buildpack.git -u none -c "app.py"
