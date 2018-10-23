@@ -33,3 +33,7 @@ Delete a service
 
     cf services
     cf delete-service <service-name>
+
+Deploy APP with build pack
+
+    cf push flaskapp -b https://github.com/cloudfoundry/python-buildpack.git
